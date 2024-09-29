@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 510;
+    padding: 50px 60px;
+}
+
+#nav-part1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-part2{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-part2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-part1-1{
+    display: flex;
+}
+#nav-part2 i{
+    font-size: 20px;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    padding: 60px 60px;
+}
+
+#content h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+#content h1{
+    padding-top: 30px;
+    font-size: 140px;
+    font-weight: 400;
+    line-height: 140px;
+    letter-spacing: -7px;
+}
+
+#case{
+    width: 100%;
+    height: 30%;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+#right{
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    gap: 50px;
+}
+
+#line{
+    height: 15px;
+    width: 160px;
+    border-bottom: 2px solid black;
+}
+
+#project{
+    padding: 35px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.elem{
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.elem-img{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 25px;
+}
+
+#img1{
+    background-image: url("https://media.istockphoto.com/id/183954960/vector/abstract-vector-background-for-use-in-design.jpg?s=612x612&w=0&k=20&c=mtpXzL6bg8IxLqNFOKHeHvp4kvLi2wh_QqkDVDW5DR0=");
+}
+
+#img2{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1948478395/display_1500/stock-vector-retro-vaporwave-desktop-with-message-boxes-and-user-interface-elements-a-conceptual-illustration-1948478395.jpg");
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+.bottom h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.bottom h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+}
+
+.bottom i{
+    font-size: 25px;
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    /* background-color: black; */
+}
+
+.bottom i:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#nav-part2 h4:hover{
+    cursor: pointer;
+    color: rgb(179, 175, 174);
+}
+
+#nav-part2 a:hover{
+    cursor: pointer;
+    color: rgb(179, 175, 174);
+}
